@@ -1,0 +1,64 @@
+
+.ticket-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 350px;
+    height: 130px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.ticket-id {
+    color: #6B6F76;
+    margin-bottom: 10px;
+}
+
+.ticket-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ticket-details {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: grey;
+    margin-right: 5px;
+}
+
+.user-info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.username {
+    font-size: 14px;
+}
